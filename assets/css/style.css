@@ -172,6 +172,43 @@ footer {
 	font-size: 20px;
 }
 
+.imagesbox {
+	position: relative;
+	width: 590px;
+	margin: 30px;
+	height: 900px;
+}
+
+#hangman, #rpg, #trivia, #widget, #rockpaper {
+	float: left;
+	position: absolute;
+}
+
+#rpg, #widget {
+	right: 0;
+}
+
+#rockpaper {
+	bottom: 0;
+}
+
+#trivia, #widget {
+	top: 308px;
+}
+
+.imagenamebox {
+	width: 240px;
+	background-color: #4aaaa5;
+	position: absolute;
+	z-index: 10;
+	top: 210px;
+	color: #ffffff;
+	text-align: center;
+	padding: 20px;
+	font-size: 20px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
 .clearfix::after {
     content: "";
     clear: both;
