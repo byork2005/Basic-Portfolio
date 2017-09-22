@@ -51,14 +51,16 @@ a:link, a:visited {
     color: #777777;
 }
 
-a:hover, a:active {
+/*a:hover, a:active {*/
+	/*text-decoration: underline;*/
+	/*color: black;*/
+/*}*/
+
+#aboutlink:hover, #portfoliolink:hover, #contactlink:hover {
 	text-decoration: underline;
 	color: black;
 }
 
-#githublink: hover, #linkedinlink: hover, #stackoverflow: hover {
-	text-decoration: none;
-}
 
 hr {
 	height: 2px;
